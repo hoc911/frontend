@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             formData.append('image', file);
 
             // **هام: استبدل هذا بعنوان URL لخادم الواجهة الخلفية الخاص بك**
-            const backendURL = 'https://your-backend-app-url.com/upload';
+            const backendURL = 'https://backend-server-3m7y.onrender.com';
 
             fetch(backendURL, {
                 method: 'POST',
