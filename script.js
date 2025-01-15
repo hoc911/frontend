@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const formData = new FormData();
             formData.append('image', file);
 
-            // **هام: استبدل هذا بعنوان URL لخادم الواجهة الخلفية الخاص بك**
-            const backendURL = 'https://backend-server-3m7y.onrender.com';
+            // **هام: تأكد من أن هذا هو عنوان URL لخادم الواجهة الخلفية الخاص بك**
+            const backendURL = 'https://backend-server-3m7y.onrender.com/upload'; // تم إضافة /upload
 
             fetch(backendURL, {
                 method: 'POST',
