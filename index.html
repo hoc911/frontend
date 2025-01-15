@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحويل الصورة إلى صفحة ويب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>إنشاء صفحة ويب من صورة</h1>
+
+    <div class="upload-section">
+        <label for="imageUpload" class="upload-label">اختر صورة:</label>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button id="generateButton" disabled>إنشاء</button>
+    </div>
+
+    <div id="generatedContent" class="content-section">
+        <!-- سيتم عرض HTML الذي تم إنشاؤه هنا -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
